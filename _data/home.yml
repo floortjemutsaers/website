@@ -1,23 +1,36 @@
 foto: /hero.jpg
-foto_omschrijving: Floor Mutsaers drie keer naast zichzelf, lachend in de camera
-carrousel_intro: Bij Indicia en IO werkte ik aan leverancierszijde voor klanten, bij Sacha en Manfield intern op de marketingafdeling, en bij Fontys als docent.
+foto_omschrijving: Mats Mutsaers drie keer naast zichzelf, lachend in de camera
+carrousel_intro: Bij Indicia en IO werkte ik aan leverancierszijde voor klanten,
+  bij Sacha en Manfield intern op de marketingafdeling, en bij Fontys als
+  docent.
 intro_titel: Niet bang om dingen uit te proberen
-intro_tekst: '**Ik ben allround docent bij Fontys SPECO Sportmarketing en online marketing is mijn specialisme.** Mijn overstap van het bedrijfsleven naar het onderwijs bewijst dat ik niet bang ben om dingen uit te proberen, en deze website ook: die bouwde ik zelf met AI.'
+intro_tekst: "**Ik ben allround docent bij Fontys SPECO Sportmarketing en online
+  marketing is mijn specialisme.** Mijn overstap van het bedrijfsleven naar het
+  onderwijs bewijst dat ik niet bang ben om dingen uit te proberen, en deze
+  website ook: die bouwde ik zelf met AI."
 werk_titel: Uitgelicht werk
 werk_intro: Van leverancier naar opdrachtgever en weer terug, en daarna het onderwijs in.
 expertise_titel: Waar ik goed in ben
-expertise_intro: 'Meer dan tien jaar werkte ik aan beide kanten van de tafel: als leverancier bij digitale bureaus, en als opdrachtgever op de marketingafdeling van een retailer. Die praktijk neem ik mee de klas in.'
+expertise_intro: "Meer dan tien jaar werkte ik aan beide kanten van de tafel:
+  als leverancier bij digitale bureaus, en als opdrachtgever op de
+  marketingafdeling van een retailer. Die praktijk neem ik mee de klas in."
 expertise:
-- titel: E-commerce
-  tekst: Webshops lanceren in nieuwe landen, omnichannel loyaltyprogramma's en de koppeling tussen webshop en winkel.
-- titel: SEO en conversie
-  tekst: 'Gecertificeerd in SEO-copywriting en conversieoptimalisatie: teksten die gevonden worden en overtuigen.'
-- titel: Social media en reputatie
-  tekst: Beheer van en advies over social kanalen, reviewplatformen en online reputatiemanagement.
-- titel: AI en vernieuwing
-  tekst: Ik experimenteer met AI in mijn werk en lessen, van contentcreatie tot het zelf bouwen van deze website.
-- titel: Digitale projecten
-  tekst: Gecertificeerd Scrum Master en Product Owner Advanced. Eerder ook spreker op de Webwinkel Vakdagen.
-- titel: Online adverteren
-  tekst: Online campagnes opzetten, van doelgroep en budget tot het meten en evalueren van de resultaten. Een onderwerp waar ik nog altijd les in geef.
+  - titel: E-commerce
+    tekst: Webshops lanceren in nieuwe landen, omnichannel loyaltyprogramma's en de
+      koppeling tussen webshop en winkel.
+  - titel: SEO en conversie
+    tekst: "Gecertificeerd in SEO-copywriting en conversieoptimalisatie: teksten die
+      gevonden worden en overtuigen."
+  - titel: Social media en reputatie
+    tekst: Beheer van en advies over social kanalen, reviewplatformen en online
+      reputatiemanagement.
+  - titel: AI en vernieuwing
+    tekst: Ik experimenteer met AI in mijn werk en lessen, van contentcreatie tot
+      het zelf bouwen van deze website.
+  - titel: Digitale projecten
+    tekst: Gecertificeerd Scrum Master en Product Owner Advanced. Eerder ook spreker
+      op de Webwinkel Vakdagen.
+  - titel: Online adverteren
+    tekst: Online campagnes opzetten, van doelgroep en budget tot het meten en
+      evalueren van de resultaten. Een onderwerp waar ik nog altijd les in geef.
 aanbevelingen_titel: Wat anderen zeggen
