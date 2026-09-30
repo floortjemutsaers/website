@@ -1,0 +1,86 @@
+---
+layout: default
+---
+{%- assign alle = site.data.projecten -%}
+{%- assign n = alle | size -%}
+{%- assign idx = 0 -%}
+{%- for x in alle -%}{%- if x.slug == page.project -%}{%- assign idx = forloop.index0 -%}{%- endif -%}{%- endfor -%}
+{%- assign p = alle[idx] -%}
+{%- assign vorige_i = idx | minus: 1 -%}{%- if vorige_i < 0 -%}{%- assign vorige_i = n | minus: 1 -%}{%- endif -%}
+{%- assign volgende_i = idx | plus: 1 | modulo: n -%}
+{%- assign vorige = alle[vorige_i] -%}
+{%- assign volgende = alle[volgende_i] -%}
+<div class="page-head">
+  <div class="wrap">
+    <p class="crumbs"><a href="/">Home</a> / <a href="/werk.html">Werk</a></p>
+    <p class="kicker">{{ p.soort }} · {{ p.rol }}</p>
+    <h1>{{ p.organisatie }}</h1>
+    <p class="lead">{{ p.intro }}</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap detail">
+    <div>
+      {{ p.tekst | markdownify }}
+      {%- if p.lijst and p.lijst.size > 0 %}
+      {%- if p.lijst_titel and p.lijst_titel != "" %}<h3>{{ p.lijst_titel }}</h3>{% endif %}
+      <ul>
+        {%- for punt in p.lijst %}
+        <li>{{ punt }}</li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+      {%- if p.klanten and p.klanten.size > 0 %}
+      <h3>Klanten</h3>
+      <dl class="clients">
+        {%- for k in p.klanten %}
+        <div><dt>{{ k.naam }}</dt><dd>{{ k.omschrijving }}</dd></div>
+        {%- endfor %}
+      </dl>
+      {%- endif %}
+      {%- if p.tags and p.tags.size > 0 %}
+      <div class="tags">{% for t in p.tags %}<span>{{ t }}</span>{% endfor %}</div>
+      {%- endif %}
+    </div>
+    <aside class="facts">
+      <dl>
+        {%- for f in p.feiten %}
+        <div><dt>{{ f.label }}</dt><dd>{{ f.waarde }}</dd></div>
+        {%- endfor %}
+      </dl>
+    </aside>
+  </div>
+</section>
+
+{%- assign quotes = site.data.aanbevelingen | where: "project", p.slug -%}
+{%- if quotes.size > 0 %}
+<section class="tint-rose">
+  <div class="wrap">
+    <h2>Wat anderen zeggen</h2>
+    <div class="quotes">
+      {%- for q in quotes %}{% if q.soort != "Student" %}
+      <figure class="quote{% if q.breed %} wide{% endif %}">
+        <blockquote>{{ q.tekst }}</blockquote>
+        <figcaption>{{ q.naam }}<span>{{ q.omschrijving }}</span></figcaption>
+      </figure>
+      {%- endif %}{% endfor %}
+    </div>
+    <div class="students">
+      {%- for q in quotes %}{% if q.soort == "Student" %}
+      <figure><blockquote>“{{ q.tekst }}”</blockquote><figcaption>{{ q.naam }}, {{ q.omschrijving | downcase }}</figcaption></figure>
+      {%- endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+<section>
+  <div class="wrap">
+    <nav class="pager" aria-label="Andere projecten">
+      <a href="/werk-{{ vorige.slug }}.html">← {{ vorige.organisatie }}</a>
+      <a href="/werk.html">Alle werk</a>
+      <a href="/werk-{{ volgende.slug }}.html">{{ volgende.organisatie }} →</a>
+    </nav>
+  </div>
+</section>

@@ -1,0 +1,70 @@
+kop: Van leverancier naar opdrachtgever, en het onderwijs in
+intro: Meer dan tien jaar digitale projecten aan beide kanten van de tafel, en nu docent bij Fontys.
+banen:
+- waar: Fontys Hogescholen, Tilburg
+  functie: Allround docent, SPECO Sportmarketing
+  tekst: Actief geweest in alle jaarlagen, dit jaar docent en coach in het eerste jaar en doorstroomcoördinator. Kennishouder online marketing en betrokken bij de ontwikkeling van het curriculum.
+  project: fontys
+  huidig: true
+- waar: IO, digitaal bureau (leverancierszijde)
+  functie: Senior Project Coördinator
+  tekst: Digitale oplossingen voor onder meer Erasmus MC, Layher en Zeeland.com.
+  project: io
+  huidig: false
+- waar: Sacha en Manfield, intern op de marketingafdeling
+  functie: Project Coördinator E-commerce
+  tekst: Internationale webshops, omnichannel loyalty en de koppeling tussen webshop en winkel.
+  project: sacha-manfield
+  huidig: false
+- waar: Indicia, digitaal bureau (leverancierszijde)
+  functie: Project Manager
+  tekst: Management en consultancy van websites, webshops en social media, voor klanten als Coolcat, Carlsberg Group, Gaastra en Van Mossel.
+  project: indicia
+  huidig: false
+opleidingen:
+- titel: Master Communicatie- en informatiewetenschappen
+  instelling: Tilburg University, specialisatie communicatiedesign
+  periode: 2009–2011
+- titel: Minor Ondernemerschap
+  instelling: Fontys Hogescholen
+  periode: 2008–2009
+- titel: Human Resource Management
+  instelling: Avans Hogeschool
+  periode: 2005–2009
+certificaten:
+- titel: Basiskwalificatie Examinering (BKE)
+  instelling: Fontys. Vormt samen met de BKO de landelijk erkende Basiskwalificatie Didactische Bekwaamheid (BDB)
+  datum: '2025'
+- titel: Van inhoud naar impact
+  instelling: Bureau Zuidema
+  datum: '2024'
+- titel: Basiskwalificatie Onderwijs (BKO)
+  instelling: Fontys
+  datum: '2023'
+- titel: Professional Scrum Product Owner II (Advanced)
+  instelling: Scrum.org
+  datum: jan. 2021
+- titel: Praktische coachingvaardigheden
+  instelling: Schouten & Nelissen
+  datum: jul. 2021
+- titel: Feedback geven
+  instelling: Schouten & Nelissen
+  datum: nov. 2020
+- titel: Professional Scrum Product Owner
+  instelling: Scrum.org
+  datum: jul. 2020
+- titel: Energiemanagement
+  instelling: Schouten & Nelissen
+  datum: jul. 2020
+- titel: Persoonlijk leiderschap
+  instelling: Schouten & Nelissen
+  datum: jul. 2020
+- titel: Invloedrijk communiceren
+  instelling: Bureau Zuidema
+  datum: aug. 2019
+- titel: Scrum Master
+  instelling: Zilverline
+  datum: jan. 2019
+- titel: SEO-copywriting en conversieoptimalisatie
+  instelling: Springtest
+  datum: nov. 2015

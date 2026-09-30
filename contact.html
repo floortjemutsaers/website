@@ -1,77 +1,14 @@
-<!doctype html>
-<html lang="nl">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; base-uri 'none'; form-action 'none'">
-<meta name="referrer" content="strict-origin-when-cross-origin">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#F7F1EC">
-<title>Contact | Floor Mutsaers</title>
-<meta name="description" content="Neem contact op met Floor Mutsaers voor een samenwerking, gastles of studentenopdracht.">
-<meta property="og:title" content="Contact | Floor Mutsaers">
-<meta property="og:description" content="Neem contact op met Floor Mutsaers voor een samenwerking, gastles of studentenopdracht.">
-<meta property="og:type" content="website">
-<meta property="og:image" content="https://floormutsaers.nl/hero.jpg">
-<meta property="og:url" content="https://floormutsaers.nl/contact.html">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%232A1B16'/><text x='50%' y='58%' text-anchor='middle' dominant-baseline='middle' font-family='Georgia' font-size='30' fill='%23D39A93'>FM</text></svg>">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<a class="skip" href="#inhoud">Naar de inhoud</a>
-
-<!-- ====== MENU: pas je dit aan, doe het dan op elke pagina ====== -->
-<header class="top">
-  <div class="wrap">
-    <a class="mark" href="index.html">Floor Mutsaers<span>.</span></a>
-    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">
-      <span class="label">Menu</span>
-      <span class="burger" aria-hidden="true"><i></i><i></i><i></i></span>
-    </button>
-    <nav class="menu" id="menu" aria-label="Hoofdmenu">
-        <a href="index.html">Home</a>
-        <a href="over-mij.html">Over mij</a>
-        <a href="werk.html">Werk</a>
-        <a href="loopbaan.html">Loopbaan</a>
-        <a href="aanbevelingen.html">Aanbevelingen</a>
-        <a href="contact.html" aria-current="page">Contact</a>
-        <a class="btn menu-cta" href="https://www.linkedin.com/in/floormutsaers/" rel="noopener">Bericht via LinkedIn</a>
-    </nav>
-  </div>
-</header>
-
-<main id="inhoud">
+---
+layout: default
+title: "Contact | Floor Mutsaers"
+description: "Neem contact op met Floor Mutsaers voor een samenwerking, gastles of studentenopdracht."
+nav: contact
+---
+{%- assign pg = site.data.paginas.contact -%}
 <div class="page-head">
   <div class="wrap">
     <p class="kicker">Contact</p>
-    <h1>Laten we kennismaken</h1>
-    <p class="lead">Voor samenwerkingen met het werkveld, een gastles, een opdracht voor studenten of een vraag over online marketing. Je vindt mijn contactgegevens hieronder.</p>
+    <h1>{{ pg.kop }}</h1>
+    <p class="lead">{{ pg.intro }}</p>
   </div>
 </div>
-</main>
-
-<section class="contact" id="contact-blok">
-  <div class="wrap contact-grid">
-    <img class="avatar" src="avatar.jpg" alt="Floor Mutsaers" width="120" height="120" loading="lazy">
-    <div>
-      <h2>Samenwerken, een gastles of een opdracht voor studenten?</h2>
-      <p>Heb je een merk, club of organisatie die studenten een echte online marketingopdracht wil geven? Of zoek je een spreker over e-commerce, online marketing of digitale projecten? Stuur me een bericht.</p>
-      <a class="btn" href="https://www.linkedin.com/in/floormutsaers/" rel="noopener">Bericht via LinkedIn</a>
-      <!-- E-MAIL: haal de twee streepjes-regels weg en vul je adres in
-      <a class="btn ghost" href="mailto:JOUW-ADRES@floormutsaers.nl">Stuur een e-mail</a>
-      -->
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="wrap">
-    <span>© <span id="y">2026</span> Floor Mutsaers</span>
-    <nav aria-label="Footer"><a href="index.html">Home</a> <a href="over-mij.html">Over mij</a> <a href="werk.html">Werk</a> <a href="loopbaan.html">Loopbaan</a> <a href="aanbevelingen.html">Aanbevelingen</a> <a href="contact.html">Contact</a> <a href="https://www.linkedin.com/in/floormutsaers/" rel="noopener">LinkedIn</a></nav>
-  </div>
-</footer>
-<script src="site.js"></script>
-</body>
-</html>

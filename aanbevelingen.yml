@@ -1,0 +1,48 @@
+- naam: Reinier Etienne
+  omschrijving: Erasmus MC, product owner publieke website, klant (2022)
+  tekst: Als product owner van de publieke website van het Erasmus MC heb ik zo'n 3 jaar heel prettig samengewerkt met Floor, die senior project coördinator was. Maar eigenlijk ook product owner, scrum master en accountmanager... Ze zorgde altijd voor een goede open communicatie met ons als klant, ontzorgde mij door alle overleggen goed in te plannen, voor te bereiden en afspraken na afloop vast te leggen. Ze zat er altijd bovenop dat iedereen zijn afspraken nakwam en dat haar team optimaal werd ingezet voor ons als klant. Ze bewaakte de budgetten goed en zorgde voor duidelijkheid over en inzicht in de kosten. Ook keek ze inhoudelijk kritisch mee naar waar we in de sprints mee bezig waren, kwam ze met suggesties en testte ze mee waar nodig. Floor is niet alleen gestructureerd en betrouwbaar in haar werk, ze is ook een sociaal en gezellig persoon om mee samen te werken.
+  soort: Klant of collega
+  project: io
+  breed: true
+- naam: Anne Broekhuizen
+  omschrijving: Erasmus MC, klant (2020)
+  tekst: Floor is een heel fijn persoon om mee te werken. Ze is heel relaxt, maar overziet alles goed. Ze heeft een goed beeld van wat er speelt, hoe een project loopt en wanneer ze moet bijsturen. Floor reageert altijd snel op vragen, maar ook op situaties die daarom vragen. Ze kan snel schakelen en zorgt ervoor dat de leden in het (project)team de neuzen dezelfde kant op hebben. Dit doet ze altijd met een lach.
+  soort: Klant of collega
+  project: io
+  breed: false
+- naam: Bjorn Brummelink
+  omschrijving: Layher, klant (2021)
+  tekst: Floor is een heel prettig en enthousiast persoon die graag de handen uit de mouwen steekt. Als projectcoördinator denkt ze graag mee en is ze oprecht geïnteresseerd in het bedrijf. Hierdoor heeft ze een goed beeld van alles wat speelt. Ze reageert snel op vragen of problemen en weet hierbij altijd snel te schakelen naar een antwoord of passende oplossing.
+  soort: Klant of collega
+  project: io
+  breed: false
+- naam: Fokkejan Meijer
+  omschrijving: IO, collega (2022)
+  tekst: Floor is een fijne en vrolijke collega om mee samen te werken. Ze is een ervaren projectmanager en kan als geen ander orde op zaken stellen. Floor is een echte aanpakker met brede ervaring binnen het online domein.
+  soort: Klant of collega
+  project: io
+  breed: true
+- naam: Pascal van Dooren
+  omschrijving: Indicia, collega-projectmanager (2016)
+  tekst: Floor heb ik leren kennen als een prettige collega Project Manager. Zij is een persoon die de touwtjes in handen neemt, het overzicht goed heeft van alle lopende zaken en op een praktische manier snel in oplossingen denkt.
+  soort: Klant of collega
+  project: indicia
+  breed: true
+- naam: Student
+  omschrijving: Uit de studentenenquête
+  tekst: Floor is een zeer betrokken docent. Ze wil altijd het beste voor de klas en heeft haar lessen altijd goed voorbereid. Ze is altijd als eerste klaar met het nakijkwerk en helpt je wanneer je het nodig hebt. Ook bedenkt ze vaak dingen die de les net wat actiever maken.
+  soort: Student
+  project: fontys
+  breed: false
+- naam: Student
+  omschrijving: Uit de studentenenquête
+  tekst: Bij Floor is het altijd gezellig in de les, maar ze weet mij ook te motiveren als dat nodig is.
+  soort: Student
+  project: fontys
+  breed: false
+- naam: Student
+  omschrijving: Uit de studentenenquête
+  tekst: Je voelt de vrijheid om vragen te stellen. Als je hulp nodig hebt, kijkt Floor waar je vastloopt en hoe ze je daarbij kan helpen. Ze maakt alle hulpprogramma’s duidelijk, zodat we ons kunnen focussen op de opdracht.
+  soort: Student
+  project: fontys
+  breed: false

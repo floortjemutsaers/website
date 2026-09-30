@@ -1,0 +1,7 @@
+# Instellingen voor de website. Hier hoef je normaal niets aan te veranderen.
+title: Floor Mutsaers
+url: "https://floormutsaers.nl"
+baseurl: ""
+markdown: kramdown
+exclude:
+  - README.md

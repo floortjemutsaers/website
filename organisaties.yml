@@ -1,0 +1,45 @@
+- naam: Fontys
+  label: Werkgever, onderwijs
+  logo: /images/logo-fontys.png
+- naam: IO
+  label: Werkgever, digitaal bureau
+  logo: /images/logo-io.png
+- naam: Manfield
+  label: Werkgever, marketingafdeling
+  logo: /images/logo-manfield.png
+- naam: Sacha
+  label: Werkgever, marketingafdeling
+  logo: /images/logo-sacha.png
+- naam: Indicia
+  label: Werkgever, digitaal bureau
+  logo: /images/logo-indicia.png
+- naam: Erasmus MC
+  label: Klant via IO
+  logo: /images/logo-erasmus-mc.png
+- naam: Layher
+  label: Klant via IO
+  logo: /images/logo-layher.png
+- naam: Zeeland.com
+  label: Klant via IO
+  logo: /images/logo-zeeland-com.png
+- naam: Destil
+  label: Klant via IO
+  logo: /images/logo-destil.png
+- naam: Arbo Unie
+  label: Klant via IO
+  logo: /images/logo-arbo-unie.png
+- naam: Woonstad Rotterdam
+  label: Klant via IO
+  logo: /images/logo-woonstad-rotterdam.png
+- naam: Coolcat
+  label: Klant via Indicia
+  logo: /images/logo-coolcat.png
+- naam: Carlsberg Group
+  label: Klant via Indicia
+  logo: /images/logo-carlsberg-group.png
+- naam: Gaastra
+  label: Klant via Indicia
+  logo: /images/logo-gaastra.png
+- naam: Van Mossel
+  label: Klant via Indicia
+  logo: /images/logo-van-mossel.png
