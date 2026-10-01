@@ -3,7 +3,7 @@
 <html lang="nl">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self' https://www.googletagmanager.com; connect-src https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#F7F1EC">
@@ -68,9 +68,19 @@
 <footer>
   <div class="wrap">
     <span>© <span id="y">2026</span> {{ a.voornaam }} {{ a.achternaam }}</span>
-    <nav aria-label="Footer"><a href="/">Home</a> <a href="/over-mij.html">Over mij</a> <a href="/werk.html">Werk</a> <a href="/loopbaan.html">Loopbaan</a> <a href="/aanbevelingen.html">Aanbevelingen</a> <a href="/contact.html">Contact</a> <a href="{{ a.linkedin }}" rel="noopener">LinkedIn</a></nav>
+    <nav aria-label="Footer"><a href="/">Home</a> <a href="/over-mij.html">Over mij</a> <a href="/werk.html">Werk</a> <a href="/loopbaan.html">Loopbaan</a> <a href="/aanbevelingen.html">Aanbevelingen</a> <a href="/contact.html">Contact</a> <a href="{{ a.linkedin }}" rel="noopener">LinkedIn</a>{% if a.google_analytics_id and a.google_analytics_id != "" %} <a href="#" class="cookie-open">Cookie-instellingen</a>{% endif %}</nav>
   </div>
 </footer>
 <script src="/site.js"></script>
+{%- if a.google_analytics_id and a.google_analytics_id != "" %}
+<div class="cookiebar" id="cookiebar" role="dialog" aria-live="polite" aria-label="Cookiemelding" hidden>
+  <p>Mag ik met Google Analytics bijhouden hoe bezoekers deze website gebruiken? Zo kan ik de site verbeteren. Ik gebruik de gegevens niet voor advertenties.</p>
+  <div class="cookiebar-knoppen">
+    <button type="button" class="btn" data-keuze="ja">Akkoord</button>
+    <button type="button" class="btn ghost" data-keuze="nee">Liever niet</button>
+  </div>
+</div>
+<script src="/analytics.js" data-ga="{{ a.google_analytics_id }}"></script>
+{%- endif %}
 </body>
 </html>
