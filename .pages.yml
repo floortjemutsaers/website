@@ -17,6 +17,7 @@ content:
       - { name: extra_regel, label: Extra regel onder je functie, type: string }
       - { name: linkedin, label: Link naar je LinkedIn, type: string }
       - { name: email, label: "E-mailadres (leeg laten = geen e-mailknop)", type: string }
+      - { name: google_analytics_id, label: "Google Analytics Metings-ID (bijv. G-AB12CD34EF, leeg = uit)", type: string }
       - { name: contact_titel, label: Kop van het contactblok, type: string }
       - { name: contact_tekst, label: Tekst van het contactblok, type: text }
       - { name: contact_foto, label: Ronde foto bij contact, type: image }
